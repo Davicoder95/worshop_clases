@@ -1,4 +1,7 @@
 package com.example.worshop_clases.repositories.interfaces;
 
-public interface LessonRepository {
+import com.example.worshop_clases.entities.LessonEntity;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface LessonRepository extends JpaRepository<LessonEntity,Long> {
 }

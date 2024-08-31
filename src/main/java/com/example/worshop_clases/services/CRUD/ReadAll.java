@@ -1,4 +1,7 @@
 package com.example.worshop_clases.services.CRUD;
 
-public interface ReadAll {
+import java.util.List;
+
+public interface ReadAll <Entity>{
+    public List<Entity> readAll();
 }
