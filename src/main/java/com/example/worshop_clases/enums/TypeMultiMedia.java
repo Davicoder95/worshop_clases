@@ -1,4 +1,4 @@
-package com.example.worshop_clases;
+package com.example.worshop_clases.enums;
 
 public enum TypeMultiMedia {
 
