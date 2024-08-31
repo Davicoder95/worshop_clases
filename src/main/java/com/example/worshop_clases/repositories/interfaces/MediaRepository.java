@@ -1,4 +1,7 @@
 package com.example.worshop_clases.repositories.interfaces;
 
-public interface MediaRepository {
+import com.example.worshop_clases.entities.MediaEntity;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface MediaRepository extends JpaRepository<MediaEntity,Long> {
 }
