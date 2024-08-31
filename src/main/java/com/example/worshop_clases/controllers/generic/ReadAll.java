@@ -1,4 +1,8 @@
 package com.example.worshop_clases.controllers.generic;
 
-public interface ReadAll {
+import java.util.List;
+
+public interface ReadAll <Entity> {
+
+    public List<Entity> genericReadAll();
 }

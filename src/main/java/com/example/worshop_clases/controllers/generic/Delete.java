@@ -1,4 +1,6 @@
 package com.example.worshop_clases.controllers.generic;
 
-public interface Delete {
+public interface Delete <Id> {
+    public void genericDelete (Id id);
+
 }

@@ -1,4 +1,8 @@
 package com.example.worshop_clases.controllers.generic;
 
-public interface Create {
+import org.springframework.http.ResponseEntity;
+
+public interface Create <EntityRequest, Entity>{
+    public ResponseEntity<Entity> genericCreate(EntityRequest entity);
+
 }
